@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Varna's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap">
+    <style>
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Poppins", sans-serif;
+            color: #333;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: #1c1c1e;
+        }
+
+        .projects {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .project-item {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            padding: 20px;
+            transition: transform 0.3s;
+        }
+
+        .project-item:hover {
+            transform: translateY(-10px);
+        }
+
+        .project-item img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .project-content {
+            color: #000;
+        }
+
+        .project-content h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #383840;
+        }
+
+        .project-content p {
+            font-size: 1rem;
+            margin-bottom: 0;
+            color: #2f2929;
+        }
+    </style>
+</head>
+<body>
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">PORTFOLIO</a>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li><a href="index.html">ABOUT</li>
+                <li class="active"><a href="generic.html">PROJECTS</a></li>
+                <li><a href="elements.html">EXPERIENCE</a></li>
+                <li><a href="education.html">SKILLS & INTERESTS</a></li>
+                <li><a href="contact.html">CONTACT ME</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/varna-krishna/" class="icon brands fa-linkedin"><span class="label">fa-LinkedIn</span></a></li>
+                <li><a href="https://github.com/VARNAKRISHNA" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <section id="projects">
+            <h1>My Projects</h1>
+            <div class="projects">
+                <div class="project-item">
+                    <img src="images/m&a.png" alt="Merger & Acquisition Proposition">
+                    <div class="project-content">
+                        <h3>Merger & Acquisition Proposition</h3>
+                        <p>Merger & Acquisition Proposition for Footlocker and Sketcher using Accretion/ Dilution Assessment, Synergy Evaluation, Premium Calculation & Other Growth Assumptions.</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="images/unilever.png" alt="Discounted Cash Flow (DCF) Analysis">
+                    <div class="project-content">
+                        <h3>Discounted Cash Flow (DCF) Analysis</h3>
+                        <p>Discounted Cash Flow (DCF) analysis for Unilever PLC by projecting future cash flows, discounting them with the Weighted Average Cost of Capital (WACC), and comparing the intrinsic value to the market price.</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="images/face.png" alt="Attendance using Face Recognition">
+                    <div class="project-content">
+                        <h3>Attendance using Face Recognition</h3>
+                        <p>Attendance using Face Recognition in classrooms: facilitated by components like breadboards, capacitors, cameras, and microchips.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Copyright -->
+        <div id="copyright">
+            <ul><li>&copy; Varna krishna</li><li>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
